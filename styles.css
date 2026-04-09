@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #050d1f;
+    --bg2: #0d1225;
+    --bg3: #141d35;
+    --cyan: #00f0c8;
+    --purple: #bc4fe8;
+    --pink: #ff3cac;
+    --blue: #0abde3;
+    --white: #ffffff;
+    --muted: rgba(255,255,255,0.45);
+    --border: rgba(0,240,200,0.2);
+    --border-p: rgba(188,79,232,0.25);
+}
+ .body {
+    background: var(--bg);
+    font-family: 'Inter', sans-serif;
+    color: var(--white);
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-image: url(images/9098579.jpg);
+    background-position: center;     /* centra la imagen */
+    background-size: cover;          /* ocupa todo el contenedor */
+    background-repeat: no-repeat; 
+  }
+
+  /* ── BACKGROUND ── */
+  
+
+.container {
+  width: 100%;
+  height: 100vh; /* ocupa toda la altura visible */
+  display: flex;
+  justify-content: center; /* centra horizontal */
+  align-items: center;     /* centra vertical */
+  
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  background-image: url(images/water-drops-background.jpg);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: center; /* centra horizontal */
+  align-items: center;     /* centra vertical */
+
+}
+
+.card-body{
+  
+}
