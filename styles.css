@@ -44,16 +44,16 @@
 .card {
   width: 300px;
   padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  background-image: url(images/water-drops-background.jpg);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 20px;
+  box-shadow: 1 8px 12px rgba(0,0,0,0.2);
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif ;
   display: flex;
   justify-content: center; /* centra horizontal */
   align-items: center;     /* centra vertical */
 
 }
-
-.card-body{
-  
+.btn-primary{
+  margin: 6px;
 }
+
